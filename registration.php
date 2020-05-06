@@ -1,6 +1,7 @@
+
 <?php
 session_start();
-header('location:index.php');
+header('location:login.php');
 $con = mysqli_connect('localhost', 'root', '');
 mysqli_select_db($con, 'logon');
 $name = $_POST['user'];

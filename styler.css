@@ -1,23 +1,44 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic ;
+}
 body{
-	background: url(image.jpg);
+	background: url(image.jpg)no-repeat;
+	margin:0px;
+	padding: 0px;
+	height: 80px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow:hidden;
+
+
 }
 .row{
-	color: #d1a932;
+	color: black;
 }
 
 .login-box{
 	max-width: 600px;
 	float: none;
-	margin: 300px auto;
+	margin: 140px auto;
+	color: black;
+	
+
 }
 .login-left{
-	background: rgba(211,211,211,0.5);
-	padding: 30px;
+	background-color : transparent;
+position: fixed;
+	padding: 10px;
+	color: black;
 }
 
 .login-right{
-	background: #fff;
-	padding: 50px;
+	background-color: transparent;
+	padding: 10px;
 }
 
 .form-control{

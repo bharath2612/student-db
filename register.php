@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,26 +10,23 @@
 	<div class = "container">
    		<div class = "login-box">
 			<div class = "row">
-				<div style="margin: -60px auto;" class = "col-md-6 login-right">
-				<h2> REGISTER HERE </h2> 
+				<div style="margin: 30px auto;" class = "col-md-6 login-right">
+				<h2> Register Here</h2> 
 				<form action="registration.php" method="post">
 						<div class ="form-group">
-							<label> USERNAME </label>
-							<input type = "text" name = "user" class = "form-control" required>
+							<label> Username </label>
+							<input type = "text" name = "user" class = "form-control" required placeholder="Username">
 						</div>
 						<div class="form-group">
-							<label> EMAIL </label>
-							<input type = "text" name = "mail" class = "form-control" required>
-						</div>
-						<button type="submit" class="btn btn-primary"> SEND OTP </button>
-						<div class ="form-group">
-							<input type = "text" name = "user" class = "form-control" required>
+							<label> Password </label>
+							<input type = "password" name = "password" class = "form-control" required placeholder="Password">
 						</div>
 						<div class="form-group">
-							<label> PASSWORD </label>
-							<input type = "password" name = "password" class = "form-control" required>
+							<label> Email </label>
+							<input type = "text" name = "mail" class = "form-control" required placeholder="Email Id">
 						</div>
-					<button type="submit" class="btn btn-primary"> REGISTER </button>
+						
+					<button type="submit" class="btn btn-primary"> Register </button>
 				</form>
 			</div> 
 		</div>
