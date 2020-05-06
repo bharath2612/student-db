@@ -1,0 +1,25 @@
+body{
+	background: url(image.jpg);
+}
+.row{
+	color: #d1a932;
+}
+
+.login-box{
+	max-width: 600px;
+	float: none;
+	margin: 300px auto;
+}
+.login-left{
+	background: rgba(211,211,211,0.5);
+	padding: 30px;
+}
+
+.login-right{
+	background: #fff;
+	padding: 50px;
+}
+
+.form-control{
+	background-color: transparent !important;
+}
