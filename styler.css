@@ -1,0 +1,46 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic ;
+}
+body{
+	background: url(image.jpg)no-repeat;
+	margin:0px;
+	padding: 0px;
+	height: 80px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow:hidden;
+
+
+}
+.row{
+	color: black;
+}
+
+.login-box{
+	max-width: 600px;
+	float: none;
+	margin: 140px auto;
+	color: black;
+	
+
+}
+.login-left{
+	background-color : transparent;
+position: fixed;
+	padding: 10px;
+	color: black;
+}
+
+.login-right{
+	background-color: transparent;
+	padding: 10px;
+}
+
+.form-control{
+	background-color: transparent !important;
+}
